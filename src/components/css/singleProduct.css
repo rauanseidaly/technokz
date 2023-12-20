@@ -1,0 +1,132 @@
+span {
+    font-weight: bolder;
+    font-style: italic;
+}
+
+p:hover {
+    padding: 1rem;
+    transition: 1s ease;
+
+}
+
+.icons {
+    font-size: larger;
+}
+
+@media(min-width:300px) and (max-width:750px) {
+    #img-col {
+        display: none;
+    }
+
+    p {
+        max-width: 200px;
+    }
+
+    #images {
+        min-width: 200px;
+    }
+
+    .sort-heading {
+        text-align: center;
+    }
+
+    .responsive {
+        text-align: center;
+        margin: auto;
+    }
+
+    #input-type {
+        display: block;
+        width: 250px;
+        margin: auto;
+    }
+
+    #select-company {
+        display: block;
+        width: 250px;
+        margin: auto;
+    }
+
+    #clear-filters{
+        display: block;
+        width: 200px;
+        margin: auto;
+
+    }
+
+    #input-range{
+        display: block;
+        width: 200px;
+        margin: 1rem auto;
+
+    }
+
+}
+
+.stars {
+    color: orange;
+}
+
+.nonactive_btn {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    margin-left: 1rem;
+    border: none;
+    outline: none;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.active_btn {
+    opacity: 1;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    margin-left: 1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+
+.itemsToggle {
+    margin: 1rem;
+    outline: none;
+    border: none;
+    background-color: white;
+}
+
+.itemsToggle:hover {
+    color: red;
+
+
+}
+
+.addCart {
+
+    margin: 1rem;
+    border-radius: 1rem;
+    width: 40%;
+
+}
+
+.addCart:hover {
+    background-color: skyblue;
+    transition: 1s ease;
+    text-transform: uppercase;
+}
+
+.icons {
+    font-size: 1.5rem;
+}
+
+.sort-heading {
+    margin-top: 2.5rem;
+
+}
+
+#categories {
+    width: 200px;
+    border: 2px solid black;
+}

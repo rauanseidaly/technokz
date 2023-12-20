@@ -1,0 +1,129 @@
+.body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav-item {
+    transition: all 0.3s ease;
+}
+
+#login:hover {
+    background-color: skyblue;
+    transition: 1s ease;
+    text-transform: uppercase;
+
+}
+
+#sub:hover {
+    background-color: skyblue;
+    transition: 1s ease;
+    text-transform: uppercase;
+
+}
+
+.nav-item:hover {
+    padding: 0.5rem;
+}
+
+
+#logo {
+    font-family: Gill Sans;
+    max-width: 400px;
+    margin: auto;
+    font-size: 4rem;
+}
+
+#logo span:hover {
+    padding: 0.5rem;
+    background-color: rgb(12, 241, 241);
+    border-radius: 25px;
+    color: white;
+}
+
+@media(min-width:300px) and (max-width:750px) {
+    #logo {
+        max-width: 250px;
+        margin: auto;
+        font-size: 2rem;
+    }
+
+    #logo-comment {
+        max-width: 250px;
+        font-size: medium;
+
+    }
+
+
+
+}
+
+#logo-comment {
+    max-width: fit-content;
+    margin: auto;
+    font-style: italic;
+    font-weight: lighter;
+
+}
+
+#logo-comment:hover {
+    color: rgb(12, 241, 241);
+
+}
+
+.column {
+
+    padding: 5px;
+}
+
+.column h2 {
+    color: white;
+}
+
+.column ul li {
+
+    transition: all 0.3s ease;
+}
+
+.column ul li:hover {
+    padding: 0.5rem;
+    color: white;
+    color: rgb(12, 241, 241);
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 4rem;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.box {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    color: rgb(214, 214, 214);
+}
+
+div i:hover {
+    color: white;
+
+}
+
+div i {
+    margin: 10px;
+
+}
+
+#loggedIn {
+    color: rgb(6, 177, 244);
+}
+
+.icon-div {
+    border: 2px solid black;
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: orange;
+    color: white;
+}
+
