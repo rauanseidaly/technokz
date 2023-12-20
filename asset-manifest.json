@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/technokz/static/css/main.85205b43.css",
+    "main.js": "/technokz/static/js/main.b0418369.js",
+    "static/js/787.ec704a7a.chunk.js": "/technokz/static/js/787.ec704a7a.chunk.js",
+    "static/media/img3.jpg": "/technokz/static/media/img3.d56b87b533f29070228f.jpg",
+    "static/media/img5.jpg": "/technokz/static/media/img5.d0f658ba00ff80ececb3.jpg",
+    "static/media/img2.jpg": "/technokz/static/media/img2.9cd804ae5ebcf1c79e64.jpg",
+    "static/media/img1.jpg": "/technokz/static/media/img1.21d3c1cf4f8317880a66.jpg",
+    "static/media/img4.webp": "/technokz/static/media/img4.d24c57c24a3ec595059e.webp",
+    "index.html": "/technokz/index.html",
+    "main.85205b43.css.map": "/technokz/static/css/main.85205b43.css.map",
+    "main.b0418369.js.map": "/technokz/static/js/main.b0418369.js.map",
+    "787.ec704a7a.chunk.js.map": "/technokz/static/js/787.ec704a7a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85205b43.css",
+    "static/js/main.b0418369.js"
+  ]
+}
